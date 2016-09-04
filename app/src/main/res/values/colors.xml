@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreySilver">#CFD8DC</color>
+    <color name="colorGreen">#00E676</color>
+    <color name="colorBlue">#009688</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorYellow">#FBC02D</color>
+    <color name="colorCyan">#80DEEA</color>
+    <color name="colorCyan1">#B2EBF2</color>
+    <color name="colorPrimary1">#F44336</color>
+    <color name="colorPrimaryDark1">#E53935</color>
+    <color name="colorAccent1">#FF4081</color>
+    <color name="colorDarkPurple">#4A148C</color>
+    <color name="colorPurple">#CE93D8</color>
+    <color name="colorPink">#FF4081</color>
+    <color name="colorYellow1">#FFF176</color>
+
+
+
+
+    <color name="bgBackSideColor">#f4f0ff</color>
+    <color name="bgTitleLeft">#594691</color>
+    <color name="bgTitleRight">#ffffff</color>
+    <color name="bgContentTop">#594691</color>
+    <color name="bgContent">#ffffff</color>
+    <color name="contentDividerLine">#e0e0e0</color>
+    <color name="contentBadgeTitle">#a9a9a9</color>
+    <color name="titleBadgeTitle">#adafb1</color>
+    <color name="titleBadgeText">#adafb1</color>
+    <color name="mainTextColor">#343d43</color>
+    <color name="btnRequest">#ffbf12</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

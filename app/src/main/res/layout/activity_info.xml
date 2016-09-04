@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_height="250dp"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/drawer_background"
+                android:transitionName="transition_image"/>
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:text="CIS - 600"
+                    android:textColor="@android:color/white"/>
+
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:text="Android Programing"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    tools:text="Android Project - Grocery Shopping App"/>
+
+                <ImageView
+                    android:layout_below="@+id/title"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/stars"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/course1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course : "/>
+
+            <TextView
+                android:id="@+id/course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/course1"
+                android:text="course"/>
+
+            <TextView
+                android:id="@+id/aboutme1"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/course1"
+                android:text="About me : "/>
+
+            <TextView
+                android:id="@+id/aboutMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutme1"
+                android:layout_toRightOf="@+id/aboutme1"
+                android:text="about me : "/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

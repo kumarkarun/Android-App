@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/Karun/AndroidStudioProjects/project/aphidFlipViewLibrary/build/intermediates/res/merged/androidTest/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 49,
+                    "endOffset": 440
+                },
+                "from": {
+                    "file": "/Users/Karun/AndroidStudioProjects/project/aphidFlipViewLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 49,
+                        "endOffset": 440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 445,
+                    "endColumn": 57,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "/Users/Karun/AndroidStudioProjects/project/aphidFlipViewLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 445,
+                        "endColumn": 57,
+                        "endOffset": 498
+                    }
+                }
+            }
+        ]
+    }
+]

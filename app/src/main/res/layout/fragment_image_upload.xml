@@ -1,0 +1,91 @@
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical" >-->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@color/colorCyan1"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="5dp"
+    tools:context="com.android.project.ImageUploadFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Upload Photo"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/selectcar"
+        android:textColor="@color/cardview_dark_background"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true" />
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/camerabutton"
+        android:textSize="15dp"
+        android:text="Take a Photo"
+        android:textColor="@color/colorDarkPurple"
+        android:background="@color/colorCyan1"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_below="@+id/gallerybutton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Gallery"
+        android:id="@+id/gallerybutton"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorCyan"
+        android:textStyle="bold"
+        android:layout_below="@+id/selectcar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/com_facebook_profile_picture_blank_square"
+        android:id="@+id/cameraimage"
+        android:layout_above="@+id/continueButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/continueButton2"
+        android:text="Continue"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorCyan"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:layout_marginBottom="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

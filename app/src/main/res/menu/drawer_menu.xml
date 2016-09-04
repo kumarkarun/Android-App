@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/task1"
+            android:title="Stores Review"
+            android:checked="false"
+            android:icon="@drawable/review"/>
+        <item
+            android:id="@+id/task2"
+            android:title="Report Issue"
+            android:checked="false"
+            android:icon="@drawable/reportissue"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About"
+            android:checked="false"
+            android:icon="@drawable/user"/>
+
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:checked="false"
+            android:icon="@drawable/logout"/>
+
+    </group>
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.project">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        tools:replace="android:icon,android:theme"
+        android:name="com.android.project.MovieApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_hi5"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name=".Activity_Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Mycustom"> </activity>
+        <activity android:name=".Activity_AddPage"> </activity>
+        <activity android:name=".Activity_CheckOut"> </activity>
+        <activity android:name=".FlipViewActivity"> </activity>
+        <activity android:name=".detailview_activity"
+            android:theme="@style/Mycustom1"> </activity>
+        <activity android:name=".ActivityStoresItems"
+            android:theme="@style/Mycustom"/>
+        <activity android:name=".ActivityViewPager"/>
+        <activity android:name=".viewPager.InfoActivity"/>
+        <activity android:name=".YoutubeActivity"/>
+        <activity android:name=".Activity_ReportIssue"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:label="@string/app_name" />
+    </application>
+</manifest>
